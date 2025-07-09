@@ -29,7 +29,7 @@
 }
 
 .navItem a:hover {
-  background-color: rgba(56, 189, 248, 0.15); /* Azul translúcido */
+  background-color: rgba(56, 189, 248, 0.15); 
   color: #38BDF8;
   transform: translateY(-2px);
 }

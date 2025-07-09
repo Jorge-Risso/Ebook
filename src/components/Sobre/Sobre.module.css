@@ -15,14 +15,14 @@
 }
 
 .titulo {
-  font-size: clamp(2.2rem, 5vw, 3rem); /* maior e responsivo */
+  font-size: clamp(2.2rem, 5vw, 3rem); 
   text-align: center;
   font-weight: 700;
   color: #111827;
 }
 
 .subtitulo {
-  font-size: clamp(1.2rem, 3vw, 1.6rem); /* legível em celular */
+  font-size: clamp(1.2rem, 3vw, 1.6rem); 
   text-align: center;
   color: #6b7280;
   margin-top: -0.5rem;
@@ -30,7 +30,7 @@
 
 .topicosGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* garante largura boa mesmo no celular */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
   margin-top: 1.5rem;
 }
@@ -78,7 +78,7 @@
   transform: scale(1.1) rotate(5deg);
 }
 
-/* Extra: melhora o espaçamento em telas pequenas */
+
 @media (max-width: 480px) {
   .card {
     flex-direction: column;

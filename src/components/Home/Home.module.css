@@ -141,8 +141,8 @@
   }
 
  .btnGroup {
-  flex-direction: row; /* mantém lado a lado */
-  flex-wrap: wrap;     /* quebra para baixo só se faltar espaço */
+  flex-direction: row; 
+  flex-wrap: wrap;     
   justify-content: center;
   gap: 1rem;
 }
