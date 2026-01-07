@@ -80,6 +80,9 @@
 
 
 @media (max-width: 480px) {
+  .topicosGrid {
+    grid-template-columns: 1fr;
+  }
   .card {
     flex-direction: column;
     text-align: center;
