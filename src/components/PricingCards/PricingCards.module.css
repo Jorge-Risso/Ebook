@@ -1,0 +1,89 @@
+.section {
+  width: 100%;
+  padding: 4rem 1.5rem;
+  background: #0e1e2a;
+}
+
+.title {
+  text-align: center;
+  color: #f9b234;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(26, 44, 58, 0.95);
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #f9b234;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  color: #c4d1dd;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  color: #f5f7fa;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #7ed957;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #f9b234;
+  margin-bottom: 1.2rem;
+}
+
+.button {
+  background: #f9b234;
+  color: #0e1e2a;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #e0a623;
+}

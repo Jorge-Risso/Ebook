@@ -1,0 +1,53 @@
+.footer {
+  background-color: #0e1e2a;
+  color: #f5f7fa;
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.socialIcons a {
+  color: #f5f7fa;
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #f9b234;
+}
+
+.links {
+  font-size: 0.85rem;
+  color: #3da9fc;
+}
+
+.links a {
+  color: #3da9fc;
+  text-decoration: underline;
+  margin: 0 0.5rem;
+}
+
+.links a:hover {
+  color: #f9b234;
+}
+
+.copy {
+  font-size: 0.75rem;
+  color: #b0b9c4;
+  line-height: 1.4;
+}
